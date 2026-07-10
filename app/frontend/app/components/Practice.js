@@ -85,7 +85,7 @@ export default function Practice({ hasItems }) {
           value={answer}
           onChange={(e) => setAnswer(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && verify()}
-          className="w-full border border-slate-200 rounded-lg px-3 py-2 text-base mb-3"
+          className="w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-base mb-3"
           placeholder="Type in English"
         />
         <button

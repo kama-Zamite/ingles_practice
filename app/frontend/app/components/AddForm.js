@@ -27,12 +27,12 @@ export default function AddForm({ items, onAdd, onDelete, onClearAll }) {
         <input
           {...register("portugues", { required: true })}
           placeholder="Português"
-          className="w-full border border-slate-200 rounded-lg px-3 py-2 text-base"
+          className="w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-base"
         />
         <input
           {...register("ingles", { required: true })}
           placeholder="Inglês"
-          className="w-full border border-slate-200 rounded-lg px-3 py-2 text-base"
+          className="w-full bg-white border border-slate-200 rounded-lg px-3 py-2 text-base"
         />
         <button
           type="submit"
